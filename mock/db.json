@@ -1,0 +1,58 @@
+{
+"movies" : [
+    { "id": 1, "name": "El Secreto del Espejo", "duration": 115, "idDirector": 1, "isInternational": false },
+    { "id": 2, "name": "La Sombra Olvidada", "duration": 98, "idDirector": 2, "isInternational": false },
+    { "id": 3, "name": "Viaje al Corazón Estelar", "duration": 142, "idDirector": 3, "isInternational": true },
+    { "id": 4, "name": "Crónicas de la Ciudad Oculta", "duration": 105, "idDirector": 4, "isInternational": false },
+    { "id": 5, "name": "El Último Aliento del Dragón", "duration": 170, "idDirector": 5, "isInternational": true },
+    { "id": 6, "name": "Noches de Neblina", "duration": 90, "idDirector": 6, "isInternational": true },
+    { "id": 7, "name": "El Enigma del Reloj de Arena", "duration": 130, "idDirector": 7, "isInternational": false },
+    { "id": 8, "name": "Los Guardianes del Bosque", "duration": 85, "idDirector": 8, "isInternational": true },
+    { "id": 9, "name": "Canto de Sirenas", "duration": 110, "idDirector": 9, "isInternational": false },
+    { "id": 10, "name": "La Leyenda del Despertar", "duration": 155, "idDirector": 10, "isInternational": true },
+    { "id": 11, "name": "Ecos en el Vacío", "duration": 100, "idDirector": 11, "isInternational": true },
+    { "id": 12, "name": "El Arte de Volar", "duration": 125, "idDirector": 12, "isInternational": false },
+    { "id": 13, "name": "Susurros del Pasado", "duration": 95, "idDirector": 13, "isInternational": true },
+    { "id": 14, "name": "La Danza de las Luciérnagas", "duration": 108, "idDirector": 14, "isInternational": true },
+    { "id": 15, "name": "Conexión Astral", "duration": 135, "idDirector": 15, "isInternational": false },
+    { "id": 16, "name": "El Secreto del Espejo 2", "duration": 115, "idDirector": 1, "isInternational": false }
+    ],
+"directors" : [
+    { "id": 1, "name": "Lucas", "lastname": "Martínez" },
+    { "id": 2, "name": "Sofía", "lastname": "González" },
+    { "id": 3, "name": "Mateo", "lastname": "Fernández" },
+    { "id": 4, "name": "Valentina", "lastname": "Pérez" },
+    { "id": 5, "name": "Julián", "lastname": "López" },
+    { "id": 6, "name": "Camila", "lastname": "Ramírez" },
+    { "id": 7, "name": "Tomás", "lastname": "Gómez" },
+    { "id": 8, "name": "Isabella", "lastname": "Torres" },
+    { "id": 9, "name": "Benjamín", "lastname": "Ruiz" },
+    { "id": 10, "name": "Emilia", "lastname": "Díaz" },
+    { "id": 11, "name": "Martín", "lastname": "Morales" },
+    { "id": 12, "name": "Renata", "lastname": "Vargas" },
+    { "id": 13, "name": "Lautaro", "lastname": "Silva" },
+    { "id": 14, "name": "Catalina", "lastname": "Sosa" },
+    { "id": 15, "name": "Santiago", "lastname": "Castro" },
+    { "id": 16, "name": "Pedro", "lastname": "Gomez" }
+    ],
+    "screening" : [
+    { "id": 1, "price": 1200.00, "startScreening": "2025-08-01 12:00", "finishScreening": "2025-08-01 13:30", "idMovie": 6, "idDirector": 6, "isInternational": true },
+    { "id": 4, "price": 1200.00, "startScreening": "2025-08-01 21:00", "finishScreening": "2025-08-01 22:55", "idMovie": 1, "idDirector": 1, "isInternational": false },
+    { "id": 5, "price": 1200.00, "startScreening": "2025-12-01 12:00", "finishScreening": "2025-12-01 13:55", "idMovie": 1, "idDirector": 1, "isInternational": false },
+    { "id": 8, "price": 1200.00, "startScreening": "2025-09-03 15:00", "finishScreening": "2025-09-03 16:55", "idMovie": 1, "idDirector": 1, "isInternational": false },
+    { "id": 6, "price": 12000.00, "startScreening": "2025-09-01 12:00", "finishScreening": "2025-09-01 13:55", "idMovie": 1, "idDirector": 1, "isInternational": false },
+    { "id": 3, "price": 1.00, "startScreening": "2025-08-01 16:00", "finishScreening": "2025-08-01 17:55", "idMovie": 1, "idDirector": 1, "isInternational": false },
+    { "id": 9, "price": 1200.00, "startScreening": "2025-08-01 10:00", "finishScreening": "2025-08-01 11:30", "idMovie": 6, "idDirector": 6, "isInternational": true },
+    { "id": 10, "price": 1200.00, "startScreening": "2025-08-02 10:00", "finishScreening": "2025-08-02 11:30", "idMovie": 6, "idDirector": 6, "isInternational": true },
+    { "id": 11, "price": 12000.00, "startScreening": "2025-08-02 12:00", "finishScreening": "2025-08-02 13:30", "idMovie": 6, "idDirector": 6, "isInternational": true },
+    { "id": 12, "price": 1200.00, "startScreening": "2025-08-02 14:00", "finishScreening": "2025-08-02 15:30", "idMovie": 6, "idDirector": 6, "isInternational": true },
+    { "id": 13, "price": 1200.00, "startScreening": "2025-08-02 16:00", "finishScreening": "2025-08-02 17:30", "idMovie": 6, "idDirector": 6, "isInternational": true },
+    { "id": 14, "price": 1200.00, "startScreening": "2025-08-02 18:00", "finishScreening": "2025-08-02 19:30", "idMovie": 6, "idDirector": 6, "isInternational": true },
+    { "id": 15, "price": 1200.00, "startScreening": "2025-08-02 20:00", "finishScreening": "2025-08-02 21:30", "idMovie": 6, "idDirector": 6, "isInternational": true },
+    { "id": 16, "price": 1200.00, "startScreening": "2025-08-02 22:00", "finishScreening": "2025-08-02 23:30", "idMovie": 6, "idDirector": 6, "isInternational": true },
+    { "id": 17, "price": 1200.00, "startScreening": "2025-08-02 08:00", "finishScreening": "2025-08-02 09:30", "idMovie": 6, "idDirector": 6, "isInternational": true },
+    { "id": 18, "price": 12000.00, "startScreening": "2025-08-03 04:00", "finishScreening": "2025-08-03 05:30", "idMovie": 6, "idDirector": 6, "isInternational": true },
+    { "id": 19, "price": 1200.00, "startScreening": "2025-08-04 09:00", "finishScreening": "2025-08-01 10:55", "idMovie": 1, "idDirector": 1, "isInternational": false }
+    ]
+
+}
